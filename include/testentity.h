@@ -19,10 +19,8 @@ typedef struct Entity_S
 	void (*think) (struct Entity_S* self); // func called to make decisions
 	void (*update) (struct Entity_S* self); // func called to execute decisions
 	void (*free) (struct Entity_S* self); // cleans up custom allocated data
+	void (*handle_input) (struct Entity_S* self); // entity movement
 	void* data;							// for ad hoc addition data for entity
-	int is_jumping; //if entity is jumping
-	float jump_force; // force value of jump
-
 }Entity;
 
 // @brief this initializes the entity management system and queues up cleanup on exit

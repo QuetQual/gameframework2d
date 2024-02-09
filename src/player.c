@@ -35,26 +35,43 @@ Entity* player_new()
 	return self;
 }
 
+void player_input(Entity* self)
+{
+	if (!self)
+	{
+		slog("failed to spawn player");
+		return NULL;
+	}
+	const Uint8* keys = SDL_GetKeyboardState(NULL);
+	Vector2D dir = { 0 };
+
+
+	if (gfc_input_key_down(SDL_SCANCODE_A))dir.x = 1; // left
+	if (gfc_input_key_down(SDL_SCANCODE_D))dir.x = -1; // right
+	if (gfc_input_key_down(SDL_SCANCODE_W))dir.y = -1; // up
+	if (gfc_input_key_down(SDL_SCANCODE_S))dir.y = 1; // down
+
+
+	vector2d_normalize(&dir);
+	vector2d_scale(self->velocity, dir, 3);
+
+}
+
 void player_think(Entity* self)
 {
-	Vector2D dir = { 0 };
-	Sint32 mx = 0, my = 0;
-	if (!self)return; 
-
+	//Sint32 mx = 0, my = 0; //for mouse based movement
+	if (!self)return;
 	
-	if (gfc_input_key_down(SDL_SCANCODE_A))dir.x = -1; // left
-	if (gfc_input_key_down(SDL_SCANCODE_D))dir.x = 1; // right
+	player_input(self);
 	
-	
-	/*
-	SDL_GetMouseState(&mx, &my); //mouse based movement (not in use anymore)
+	/*SDL_GetMouseState(&mx, &my); //mouse based movement (not in use anymore)
 	if (self->position.x < mx)dir.x = 1;  
 	if (self->position.y < my)dir.y = 1;
 	if (self->position.x > mx)dir.x = -1;
-	if (self->position.y > my)dir.y = -1; 
-	vector2d_normalize(&dir); */
-
-	vector2d_scale(self->velocity, dir, 3);
+	if (self->position.y > my)dir.y = -1; */
+	
+	//vector2d_normalize(&dir);
+	//vector2d_scale(self->velocity, dir, 3);
 }
 
 void player_update(Entity* self)
