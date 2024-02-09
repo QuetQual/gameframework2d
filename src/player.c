@@ -19,6 +19,11 @@ Entity* player_new()
 		slog("failed to spawn player");
 		return NULL;
 	}
+
+	// Initialize the input system
+	gfc_input_init("gfc/sample_config/input_new.cfg");
+
+
 	self->sprite = gf2d_sprite_load_all(
 		"images/ed210_top.png",
 		128,
@@ -42,14 +47,15 @@ void player_input(Entity* self)
 		slog("failed to spawn player");
 		return NULL;
 	}
-	const Uint8* keys = SDL_GetKeyboardState(NULL);
+	gfc_input_update();
+	//const Uint8* keys = SDL_GetKeyboardState(NULL);
 	Vector2D dir = { 0 };
 
-
-	if (gfc_input_key_down(SDL_SCANCODE_A))dir.x = 1; // left
-	if (gfc_input_key_down(SDL_SCANCODE_D))dir.x = -1; // right
-	if (gfc_input_key_down(SDL_SCANCODE_W))dir.y = -1; // up
-	if (gfc_input_key_down(SDL_SCANCODE_S))dir.y = 1; // down
+	//WORKING c:
+	if (gfc_input_command_down("walk_left"))dir.x = -1;  // left
+	if (gfc_input_command_down("walk_right"))dir.x = 1; // right
+	if (gfc_input_command_down("walk_up"))dir.y = -1; // up
+	if (gfc_input_command_down("walk_down"))dir.y = 1;  // down
 
 
 	vector2d_normalize(&dir);
