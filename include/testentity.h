@@ -3,6 +3,7 @@
 #include "gfc_types.h"
 #include "gf2d_sprite.h"
 
+
 /**
 * entity file thing or something
 */
@@ -21,6 +22,21 @@ typedef struct Entity_S
 	void (*free) (struct Entity_S* self); // cleans up custom allocated data
 	void (*handle_input) (struct Entity_S* self); // entity movement
 	void* data;							// for ad hoc addition data for entity
+
+	// Player-specific stats
+	struct
+	{
+		int health;
+		float movement_speed;
+		float gravity_multiplier;
+	} player_stats;
+
+	// Additional fields for jumping
+	Uint8 jumping;      // Jump flag
+	float jump_force;   // Jump force
+	float jump_height;  // Maximum jump height
+	float gravity;      // Gravity strength
+
 }Entity;
 
 // @brief this initializes the entity management system and queues up cleanup on exit
