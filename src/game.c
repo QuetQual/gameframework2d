@@ -5,6 +5,7 @@
 #include "gf2d_sprite.h"
 #include "testentity.h"
 #include "player.h"
+#include "camera.h"
 #include "world.h"
 
 int main(int argc, char * argv[])
@@ -17,10 +18,10 @@ int main(int argc, char * argv[])
     int mx,my;
     float mf = 0;
     Sprite *mouse;
-    Color mouseColor = gfc_color8(255,100,255,200);
+    Color mouseColor = gfc_color8(255,255,105,200);
     Entity* player;
     
-    /*program initializtion*/
+    /*program initializtion*/ 
     init_logger("gf2d.log",0);
     slog("---==== BEGIN ====---");
     gf2d_graphics_initialize(
@@ -35,6 +36,7 @@ int main(int argc, char * argv[])
     gf2d_sprite_init(1024);
     entity_system_initialize(1024);
     SDL_ShowCursor(SDL_DISABLE);
+    camera_set_size(vector2d(1200, 720)  //camera test stuff
     
     /*demo setup*/
     sprite = gf2d_sprite_load_image("images/backgrounds/egg.png"); //not in use if i can get other background working

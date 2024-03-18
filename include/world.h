@@ -9,6 +9,7 @@ typedef struct
 {
     Sprite* background;
     Sprite* tileSet;
+    Sprite* tileLayer;
     Uint8* tileMap;
     Uint8* tileHeight;
     Uint8* tileWidth;

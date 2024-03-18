@@ -1,6 +1,9 @@
-#include "world.h"
 #include "simple_json.h"
 #include "simple_logger.h"
+
+#include "gf2d_graphics.h"
+#include "camera.h"
+#include "world.h"
 
 World* world_test_new()
 {
@@ -69,7 +72,7 @@ void world_draw(World* world)
 	int frame;
 	int index;
 	Vector2D position;
-	if (!world)return NULL;
+	if (!world)return;
 	gf2d_sprite_draw_image(world->background, vector2d(0, 0));
 	if (!world->tileSet)return; //cant draw when no tiles exist
 	for (j = 0; j < world->tileHeight; j++)
@@ -77,7 +80,7 @@ void world_draw(World* world)
 		for (i = 0; i < world->tileWidth; i++)
 		{
 			index = i + ((int)j * (int)world->tileWidth);
-			if (world->tileMap[index] = 0) continue;
+			if (world->tileMap[index] == 0) continue;
 			position.x = i * world->tileSet->frame_w;
 			position.y = j * world->tileSet->frame_h;
 			frame = world->tileMap[index] - 1;
@@ -92,5 +95,18 @@ void world_draw(World* world)
 				frame);
 		}
 	}
+
+}
+
+
+void world_setup_camera(World *world)
+{
+	if (!world) return;
+	if ((!world->tileLayer) || (!world->tileLayer->surface))
+	{
+		slog("no title layer set for world");
+		return;
+	}
+	camera_set_bounds(gfc_rect(0, 0, world->tileLayer->surface->w, world->tileLayer->surface->h));
 
 }
