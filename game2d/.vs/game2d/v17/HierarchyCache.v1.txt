@@ -1,0 +1,745 @@
+﻿++Solution 'game2d' ‎(1 of 1 project)
+i:{00000000-0000-0000-0000-000000000000}:game2d.sln
+++game2d
+i:{00000000-0000-0000-0000-000000000000}:game2d
+++x64
+++camera.c
+i:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\Users\cvand\OneDrive\Desktop\gameframework2d\src\camera.c
+++camera.h
+i:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\Users\cvand\OneDrive\Desktop\gameframework2d\include\camera.h
+++game.c
+i:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\Users\cvand\OneDrive\Desktop\gameframework2d\src\game.c
+++gf2d_draw.c
+i:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\Users\cvand\OneDrive\Desktop\gameframework2d\src\gf2d_draw.c
+++gf2d_draw.h
+i:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\Users\cvand\OneDrive\Desktop\gameframework2d\include\gf2d_draw.h
+++gf2d_graphics.c
+i:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\Users\cvand\OneDrive\Desktop\gameframework2d\src\gf2d_graphics.c
+++gf2d_graphics.h
+i:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\Users\cvand\OneDrive\Desktop\gameframework2d\include\gf2d_graphics.h
+++gf2d_sprite.c
+i:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\Users\cvand\OneDrive\Desktop\gameframework2d\src\gf2d_sprite.c
+++gf2d_sprite.h
+i:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\Users\cvand\OneDrive\Desktop\gameframework2d\include\gf2d_sprite.h
+++gfc_audio.c
+i:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\Users\cvand\OneDrive\Desktop\gameframework2d\gfc\src\gfc_audio.c
+++gfc_audio.h
+i:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\Users\cvand\OneDrive\Desktop\gameframework2d\gfc\include\gfc_audio.h
+++gfc_callbacks.c
+i:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\Users\cvand\OneDrive\Desktop\gameframework2d\gfc\src\gfc_callbacks.c
+++gfc_callbacks.h
+i:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\Users\cvand\OneDrive\Desktop\gameframework2d\gfc\include\gfc_callbacks.h
+++gfc_color.c
+i:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\Users\cvand\OneDrive\Desktop\gameframework2d\gfc\src\gfc_color.c
+++gfc_color.h
+i:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\Users\cvand\OneDrive\Desktop\gameframework2d\gfc\include\gfc_color.h
+++gfc_config.c
+i:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\Users\cvand\OneDrive\Desktop\gameframework2d\gfc\src\gfc_config.c
+++gfc_config.h
+i:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\Users\cvand\OneDrive\Desktop\gameframework2d\gfc\include\gfc_config.h
+++gfc_config_def.c
+i:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\Users\cvand\OneDrive\Desktop\gameframework2d\gfc\src\gfc_config_def.c
+++gfc_config_def.h
+i:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\Users\cvand\OneDrive\Desktop\gameframework2d\gfc\include\gfc_config_def.h
+++gfc_hashmap.c
+i:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\Users\cvand\OneDrive\Desktop\gameframework2d\gfc\src\gfc_hashmap.c
+++gfc_hashmap.h
+i:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\Users\cvand\OneDrive\Desktop\gameframework2d\gfc\include\gfc_hashmap.h
+++gfc_input.c
+i:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\Users\cvand\OneDrive\Desktop\gameframework2d\gfc\src\gfc_input.c
+++gfc_input.h
+i:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\Users\cvand\OneDrive\Desktop\gameframework2d\gfc\include\gfc_input.h
+++gfc_list.c
+i:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\Users\cvand\OneDrive\Desktop\gameframework2d\gfc\src\gfc_list.c
+++gfc_list.h
+i:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\Users\cvand\OneDrive\Desktop\gameframework2d\gfc\include\gfc_list.h
+++gfc_matrix.c
+i:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\Users\cvand\OneDrive\Desktop\gameframework2d\gfc\src\gfc_matrix.c
+++gfc_matrix.h
+i:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\Users\cvand\OneDrive\Desktop\gameframework2d\gfc\include\gfc_matrix.h
+++gfc_pak.c
+i:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\Users\cvand\OneDrive\Desktop\gameframework2d\gfc\src\gfc_pak.c
+++gfc_pak.h
+i:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\Users\cvand\OneDrive\Desktop\gameframework2d\gfc\include\gfc_pak.h
+++gfc_primitives.c
+i:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\Users\cvand\OneDrive\Desktop\gameframework2d\gfc\src\gfc_primitives.c
+++gfc_primitives.h
+i:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\Users\cvand\OneDrive\Desktop\gameframework2d\gfc\include\gfc_primitives.h
+++gfc_shape.c
+i:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\Users\cvand\OneDrive\Desktop\gameframework2d\gfc\src\gfc_shape.c
+++gfc_shape.h
+i:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\Users\cvand\OneDrive\Desktop\gameframework2d\gfc\include\gfc_shape.h
+++gfc_text.c
+i:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\Users\cvand\OneDrive\Desktop\gameframework2d\gfc\src\gfc_text.c
+++gfc_text.h
+i:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\Users\cvand\OneDrive\Desktop\gameframework2d\gfc\include\gfc_text.h
+++gfc_types.c
+i:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\Users\cvand\OneDrive\Desktop\gameframework2d\gfc\src\gfc_types.c
+++gfc_types.h
+i:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\Users\cvand\OneDrive\Desktop\gameframework2d\gfc\include\gfc_types.h
+++gfc_vector.c
+i:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\Users\cvand\OneDrive\Desktop\gameframework2d\gfc\src\gfc_vector.c
+++gfc_vector.h
+i:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\Users\cvand\OneDrive\Desktop\gameframework2d\gfc\include\gfc_vector.h
+++miniz.c
+i:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\Users\cvand\OneDrive\Desktop\gameframework2d\gfc\src\miniz.c
+++miniz.h
+i:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\Users\cvand\OneDrive\Desktop\gameframework2d\gfc\include\miniz.h
+++player.c
+i:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\Users\cvand\OneDrive\Desktop\gameframework2d\src\player.c
+++player.h
+i:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\Users\cvand\OneDrive\Desktop\gameframework2d\include\player.h
+++simple_json.c
+i:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\Users\cvand\OneDrive\Desktop\gameframework2d\gfc\simple_json\src\simple_json.c
+++simple_json.h
+i:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\Users\cvand\OneDrive\Desktop\gameframework2d\gfc\simple_json\include\simple_json.h
+++simple_json_array.c
+i:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\Users\cvand\OneDrive\Desktop\gameframework2d\gfc\simple_json\src\simple_json_array.c
+++simple_json_array.h
+i:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\Users\cvand\OneDrive\Desktop\gameframework2d\gfc\simple_json\include\simple_json_array.h
+++simple_json_error.c
+i:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\Users\cvand\OneDrive\Desktop\gameframework2d\gfc\simple_json\src\simple_json_error.c
+++simple_json_error.h
+i:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\Users\cvand\OneDrive\Desktop\gameframework2d\gfc\simple_json\include\simple_json_error.h
+++simple_json_list.c
+i:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\Users\cvand\OneDrive\Desktop\gameframework2d\gfc\simple_json\src\simple_json_list.c
+++simple_json_list.h
+i:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\Users\cvand\OneDrive\Desktop\gameframework2d\gfc\simple_json\include\simple_json_list.h
+++simple_json_object.c
+i:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\Users\cvand\OneDrive\Desktop\gameframework2d\gfc\simple_json\src\simple_json_object.c
+++simple_json_object.h
+i:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\Users\cvand\OneDrive\Desktop\gameframework2d\gfc\simple_json\include\simple_json_object.h
+++simple_json_parse.c
+i:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\Users\cvand\OneDrive\Desktop\gameframework2d\gfc\simple_json\src\simple_json_parse.c
+++simple_json_parse.h
+i:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\Users\cvand\OneDrive\Desktop\gameframework2d\gfc\simple_json\include\simple_json_parse.h
+++simple_json_string.c
+i:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\Users\cvand\OneDrive\Desktop\gameframework2d\gfc\simple_json\src\simple_json_string.c
+++simple_json_string.h
+i:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\Users\cvand\OneDrive\Desktop\gameframework2d\gfc\simple_json\include\simple_json_string.h
+++simple_json_types.h
+i:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\Users\cvand\OneDrive\Desktop\gameframework2d\gfc\simple_json\include\simple_json_types.h
+++simple_json_value.h
+i:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\Users\cvand\OneDrive\Desktop\gameframework2d\gfc\simple_json\include\simple_json_value.h
+++simple_logger.c
+i:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\Users\cvand\OneDrive\Desktop\gameframework2d\gfc\simple_logger\src\simple_logger.c
+++simple_logger.h
+i:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\Users\cvand\OneDrive\Desktop\gameframework2d\gfc\simple_logger\include\simple_logger.h
+++testentity.c
+i:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\Users\cvand\OneDrive\Desktop\gameframework2d\src\testentity.c
+++testentity.h
+i:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\Users\cvand\OneDrive\Desktop\gameframework2d\include\testentity.h
+++world.c
+i:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\Users\cvand\OneDrive\Desktop\gameframework2d\src\world.c
+++world.h
+i:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\Users\cvand\OneDrive\Desktop\gameframework2d\include\world.h
+++Debug
+++game2d.tlog
+++camera.obj
+++game.obj
+++game2d.Build.CppClean.log
+++game2d.exe.recipe
+++game2d.log
+++game2d.vcxproj.FileListAbsolute.txt
+++gf2d_draw.obj
+++gf2d_graphics.obj
+++gf2d_sprite.obj
+++gfc_audio.obj
+++gfc_callbacks.obj
+++gfc_color.obj
+++gfc_config.obj
+++gfc_config_def.obj
+++gfc_hashmap.obj
+++gfc_input.obj
+++gfc_list.obj
+++gfc_matrix.obj
+++gfc_pak.obj
+++gfc_primitives.obj
+++gfc_shape.obj
+++gfc_text.obj
+++gfc_types.obj
+++gfc_vector.obj
+++miniz.obj
+++player.obj
+++simple_json.obj
+++simple_json_array.obj
+++simple_json_error.obj
+++simple_json_list.obj
+++simple_json_object.obj
+++simple_json_parse.obj
+++simple_json_string.obj
+++simple_logger.obj
+++testentity.obj
+++vc143.idb
+++vc143.pdb
+++world.obj
+++CL.command.1.tlog
+++CL.read.1.tlog
+++CL.write.1.tlog
+++game2d.lastbuildstate
+++link.25664.read.1.tlog
+++link.25664.read.2.tlog
+++link.25664.write.1.tlog
+++link.25664-cvtres.read.1.tlog
+++link.25664-cvtres.write.1.tlog
+++link.25664-rc.read.1.tlog
+++link.25664-rc.write.1.tlog
+++link.command.1.tlog
+++link.read.1.tlog
+++link.write.1.tlog
+++unsuccessfulbuild
+++References
+i:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:{693011DF-38B8-4AE3-A416-1E302269DC87}
+++External Dependencies
+i:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:{CBF6D11F-ACFB-4EB0-A9B9-CB69C226294B}
+++ammintrin.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.31.31103\INCLUDE\AMMINTRIN.H
+++apiquery2.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM\APIQUERY2.H
+++apiset.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\SHARED\APISET.H
+++apisetcconv.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\SHARED\APISETCCONV.H
+++arm_neon.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.31.31103\INCLUDE\ARM_NEON.H
+++arm64_neon.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.31.31103\INCLUDE\ARM64_NEON.H
+++arm64intr.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.31.31103\INCLUDE\ARM64INTR.H
+++armintr.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.31.31103\INCLUDE\ARMINTR.H
+++assert.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UCRT\ASSERT.H
+++basetsd.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\SHARED\BASETSD.H
+++bcrypt.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\SHARED\BCRYPT.H
+++begin_code.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\USERS\CVAND\ONEDRIVE\DESKTOP\LIBS\SDL2-2.28.5\INCLUDE\BEGIN_CODE.H
+++cderr.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\SHARED\CDERR.H
+++cguid.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM\CGUID.H
+++close_code.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\USERS\CVAND\ONEDRIVE\DESKTOP\LIBS\SDL2-2.28.5\INCLUDE\CLOSE_CODE.H
+++combaseapi.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM\COMBASEAPI.H
+++coml2api.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM\COML2API.H
+++commctrl.rh
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM\COMMCTRL.RH
+++commdlg.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM\COMMDLG.H
+++commdlg.inl
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM\COMMDLG.INL
+++concurrencysal.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.31.31103\INCLUDE\CONCURRENCYSAL.H
+++consoleapi.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM\CONSOLEAPI.H
+++consoleapi2.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM\CONSOLEAPI2.H
+++consoleapi3.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM\CONSOLEAPI3.H
+++corecrt.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UCRT\CORECRT.H
+++corecrt_malloc.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UCRT\CORECRT_MALLOC.H
+++corecrt_math.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UCRT\CORECRT_MATH.H
+++corecrt_math_defines.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UCRT\CORECRT_MATH_DEFINES.H
+++corecrt_memcpy_s.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UCRT\CORECRT_MEMCPY_S.H
+++corecrt_memory.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UCRT\CORECRT_MEMORY.H
+++corecrt_search.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UCRT\CORECRT_SEARCH.H
+++corecrt_share.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UCRT\CORECRT_SHARE.H
+++corecrt_startup.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UCRT\CORECRT_STARTUP.H
+++corecrt_stdio_config.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UCRT\CORECRT_STDIO_CONFIG.H
+++corecrt_wconio.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UCRT\CORECRT_WCONIO.H
+++corecrt_wctype.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UCRT\CORECRT_WCTYPE.H
+++corecrt_wdirect.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UCRT\CORECRT_WDIRECT.H
+++corecrt_wio.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UCRT\CORECRT_WIO.H
+++corecrt_wprocess.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UCRT\CORECRT_WPROCESS.H
+++corecrt_wstdio.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UCRT\CORECRT_WSTDIO.H
+++corecrt_wstdlib.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UCRT\CORECRT_WSTDLIB.H
+++corecrt_wstring.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UCRT\CORECRT_WSTRING.H
+++corecrt_wtime.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UCRT\CORECRT_WTIME.H
+++ctype.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UCRT\CTYPE.H
+++datetimeapi.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM\DATETIMEAPI.H
+++dde.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM\DDE.H
+++dde.rh
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM\DDE.RH
+++ddeml.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM\DDEML.H
+++debugapi.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM\DEBUGAPI.H
+++dlgs.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM\DLGS.H
+++dpapi.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM\DPAPI.H
+++driverspecs.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\SHARED\DRIVERSPECS.H
+++emmintrin.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.31.31103\INCLUDE\EMMINTRIN.H
+++enclaveapi.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM\ENCLAVEAPI.H
+++errhandlingapi.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM\ERRHANDLINGAPI.H
+++errno.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UCRT\ERRNO.H
+++excpt.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.31.31103\INCLUDE\EXCPT.H
+++fibersapi.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM\FIBERSAPI.H
+++fileapi.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM\FILEAPI.H
+++fileapifromapp.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM\FILEAPIFROMAPP.H
+++float.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UCRT\FLOAT.H
+++guiddef.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\SHARED\GUIDDEF.H
+++handleapi.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM\HANDLEAPI.H
+++heapapi.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM\HEAPAPI.H
+++ime_cmodes.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM\IME_CMODES.H
+++imm.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM\IMM.H
+++immintrin.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.31.31103\INCLUDE\IMMINTRIN.H
+++inaddr.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\SHARED\INADDR.H
+++interlockedapi.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM\INTERLOCKEDAPI.H
+++intrin.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.31.31103\INCLUDE\INTRIN.H
+++intrin0.inl.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.31.31103\INCLUDE\INTRIN0.INL.H
+++inttypes.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UCRT\INTTYPES.H
+++ioapiset.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM\IOAPISET.H
+++jobapi.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM\JOBAPI.H
+++jobapi2.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM\JOBAPI2.H
+++joystickapi.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM\JOYSTICKAPI.H
+++kernelspecs.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\SHARED\KERNELSPECS.H
+++ktmtypes.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\SHARED\KTMTYPES.H
+++libloaderapi.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM\LIBLOADERAPI.H
+++limits.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.31.31103\INCLUDE\LIMITS.H
+++lzexpand.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM\LZEXPAND.H
+++malloc.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UCRT\MALLOC.H
+++math.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UCRT\MATH.H
+++mciapi.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM\MCIAPI.H
+++mcx.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM\MCX.H
+++memory.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UCRT\MEMORY.H
+++memoryapi.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM\MEMORYAPI.H
+++minwinbase.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM\MINWINBASE.H
+++minwindef.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\SHARED\MINWINDEF.H
+++mm3dnow.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.31.31103\INCLUDE\MM3DNOW.H
+++mmeapi.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM\MMEAPI.H
+++mmintrin.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.31.31103\INCLUDE\MMINTRIN.H
+++mmiscapi.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM\MMISCAPI.H
+++mmiscapi2.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM\MMISCAPI2.H
+++mmsyscom.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM\MMSYSCOM.H
+++mmsystem.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM\MMSYSTEM.H
+++msxml.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM\MSXML.H
+++namedpipeapi.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM\NAMEDPIPEAPI.H
+++namespaceapi.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM\NAMESPACEAPI.H
+++nb30.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM\NB30.H
+++ncrypt.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM\NCRYPT.H
+++nmmintrin.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.31.31103\INCLUDE\NMMINTRIN.H
+++no_sal2.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\SHARED\NO_SAL2.H
+++OAIdl.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM\OAIDL.H
+++objbase.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM\OBJBASE.H
+++ObjIdl.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM\OBJIDL.H
+++ObjIdlbase.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM\OBJIDLBASE.H
+++ole.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM\OLE.H
+++Ole2.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM\OLE2.H
+++OleAuto.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM\OLEAUTO.H
+++oleidl.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM\OLEIDL.H
+++playsoundapi.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM\PLAYSOUNDAPI.H
+++pmmintrin.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.31.31103\INCLUDE\PMMINTRIN.H
+++poppack.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\SHARED\POPPACK.H
+++process.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UCRT\PROCESS.H
+++processenv.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM\PROCESSENV.H
+++processthreadsapi.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM\PROCESSTHREADSAPI.H
+++processtopologyapi.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM\PROCESSTOPOLOGYAPI.H
+++profileapi.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM\PROFILEAPI.H
+++PropIdl.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM\PROPIDL.H
+++PropIdlBase.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM\PROPIDLBASE.H
+++prsht.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM\PRSHT.H
+++prsht.inl
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM\PRSHT.INL
+++pshpack1.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\SHARED\PSHPACK1.H
+++pshpack2.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\SHARED\PSHPACK2.H
+++pshpack4.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\SHARED\PSHPACK4.H
+++pshpack8.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\SHARED\PSHPACK8.H
+++realtimeapiset.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM\REALTIMEAPISET.H
+++reason.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM\REASON.H
+++rpc.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\SHARED\RPC.H
+++rpcasync.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\SHARED\RPCASYNC.H
+++rpcdce.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\SHARED\RPCDCE.H
+++rpcdcep.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\SHARED\RPCDCEP.H
+++rpcndr.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\SHARED\RPCNDR.H
+++rpcnsi.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM\RPCNSI.H
+++rpcnsip.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM\RPCNSIP.H
+++rpcnterr.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\SHARED\RPCNTERR.H
+++rpcsal.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\SHARED\RPCSAL.H
+++sal.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.31.31103\INCLUDE\SAL.H
+++SCardErr.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM\SCARDERR.H
+++sdkddkver.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\SHARED\SDKDDKVER.H
+++SDL.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\USERS\CVAND\ONEDRIVE\DESKTOP\LIBS\SDL2-2.28.5\INCLUDE\SDL.H
+++SDL_assert.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\USERS\CVAND\ONEDRIVE\DESKTOP\LIBS\SDL2-2.28.5\INCLUDE\SDL_ASSERT.H
+++SDL_atomic.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\USERS\CVAND\ONEDRIVE\DESKTOP\LIBS\SDL2-2.28.5\INCLUDE\SDL_ATOMIC.H
+++SDL_audio.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\USERS\CVAND\ONEDRIVE\DESKTOP\LIBS\SDL2-2.28.5\INCLUDE\SDL_AUDIO.H
+++SDL_blendmode.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\USERS\CVAND\ONEDRIVE\DESKTOP\LIBS\SDL2-2.28.5\INCLUDE\SDL_BLENDMODE.H
+++SDL_clipboard.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\USERS\CVAND\ONEDRIVE\DESKTOP\LIBS\SDL2-2.28.5\INCLUDE\SDL_CLIPBOARD.H
+++SDL_config.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\USERS\CVAND\ONEDRIVE\DESKTOP\LIBS\SDL2-2.28.5\INCLUDE\SDL_CONFIG.H
+++SDL_cpuinfo.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\USERS\CVAND\ONEDRIVE\DESKTOP\LIBS\SDL2-2.28.5\INCLUDE\SDL_CPUINFO.H
+++SDL_endian.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\USERS\CVAND\ONEDRIVE\DESKTOP\LIBS\SDL2-2.28.5\INCLUDE\SDL_ENDIAN.H
+++SDL_error.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\USERS\CVAND\ONEDRIVE\DESKTOP\LIBS\SDL2-2.28.5\INCLUDE\SDL_ERROR.H
+++SDL_events.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\USERS\CVAND\ONEDRIVE\DESKTOP\LIBS\SDL2-2.28.5\INCLUDE\SDL_EVENTS.H
+++SDL_filesystem.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\USERS\CVAND\ONEDRIVE\DESKTOP\LIBS\SDL2-2.28.5\INCLUDE\SDL_FILESYSTEM.H
+++SDL_gamecontroller.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\USERS\CVAND\ONEDRIVE\DESKTOP\LIBS\SDL2-2.28.5\INCLUDE\SDL_GAMECONTROLLER.H
+++SDL_gesture.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\USERS\CVAND\ONEDRIVE\DESKTOP\LIBS\SDL2-2.28.5\INCLUDE\SDL_GESTURE.H
+++SDL_guid.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\USERS\CVAND\ONEDRIVE\DESKTOP\LIBS\SDL2-2.28.5\INCLUDE\SDL_GUID.H
+++SDL_haptic.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\USERS\CVAND\ONEDRIVE\DESKTOP\LIBS\SDL2-2.28.5\INCLUDE\SDL_HAPTIC.H
+++SDL_hidapi.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\USERS\CVAND\ONEDRIVE\DESKTOP\LIBS\SDL2-2.28.5\INCLUDE\SDL_HIDAPI.H
+++SDL_hints.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\USERS\CVAND\ONEDRIVE\DESKTOP\LIBS\SDL2-2.28.5\INCLUDE\SDL_HINTS.H
+++SDL_image.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\USERS\CVAND\ONEDRIVE\DESKTOP\LIBS\SDL2_IMAGE-2.8.2\INCLUDE\SDL_IMAGE.H
+++SDL_joystick.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\USERS\CVAND\ONEDRIVE\DESKTOP\LIBS\SDL2-2.28.5\INCLUDE\SDL_JOYSTICK.H
+++SDL_keyboard.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\USERS\CVAND\ONEDRIVE\DESKTOP\LIBS\SDL2-2.28.5\INCLUDE\SDL_KEYBOARD.H
+++SDL_keycode.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\USERS\CVAND\ONEDRIVE\DESKTOP\LIBS\SDL2-2.28.5\INCLUDE\SDL_KEYCODE.H
+++SDL_loadso.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\USERS\CVAND\ONEDRIVE\DESKTOP\LIBS\SDL2-2.28.5\INCLUDE\SDL_LOADSO.H
+++SDL_locale.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\USERS\CVAND\ONEDRIVE\DESKTOP\LIBS\SDL2-2.28.5\INCLUDE\SDL_LOCALE.H
+++SDL_log.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\USERS\CVAND\ONEDRIVE\DESKTOP\LIBS\SDL2-2.28.5\INCLUDE\SDL_LOG.H
+++SDL_main.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\USERS\CVAND\ONEDRIVE\DESKTOP\LIBS\SDL2-2.28.5\INCLUDE\SDL_MAIN.H
+++SDL_messagebox.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\USERS\CVAND\ONEDRIVE\DESKTOP\LIBS\SDL2-2.28.5\INCLUDE\SDL_MESSAGEBOX.H
+++SDL_metal.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\USERS\CVAND\ONEDRIVE\DESKTOP\LIBS\SDL2-2.28.5\INCLUDE\SDL_METAL.H
+++SDL_misc.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\USERS\CVAND\ONEDRIVE\DESKTOP\LIBS\SDL2-2.28.5\INCLUDE\SDL_MISC.H
+++SDL_mixer.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\USERS\CVAND\ONEDRIVE\DESKTOP\LIBS\SDL2_MIXER-2.8.0\INCLUDE\SDL_MIXER.H
+++SDL_mouse.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\USERS\CVAND\ONEDRIVE\DESKTOP\LIBS\SDL2-2.28.5\INCLUDE\SDL_MOUSE.H
+++SDL_mutex.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\USERS\CVAND\ONEDRIVE\DESKTOP\LIBS\SDL2-2.28.5\INCLUDE\SDL_MUTEX.H
+++SDL_pixels.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\USERS\CVAND\ONEDRIVE\DESKTOP\LIBS\SDL2-2.28.5\INCLUDE\SDL_PIXELS.H
+++SDL_platform.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\USERS\CVAND\ONEDRIVE\DESKTOP\LIBS\SDL2-2.28.5\INCLUDE\SDL_PLATFORM.H
+++SDL_power.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\USERS\CVAND\ONEDRIVE\DESKTOP\LIBS\SDL2-2.28.5\INCLUDE\SDL_POWER.H
+++SDL_quit.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\USERS\CVAND\ONEDRIVE\DESKTOP\LIBS\SDL2-2.28.5\INCLUDE\SDL_QUIT.H
+++SDL_rect.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\USERS\CVAND\ONEDRIVE\DESKTOP\LIBS\SDL2-2.28.5\INCLUDE\SDL_RECT.H
+++SDL_render.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\USERS\CVAND\ONEDRIVE\DESKTOP\LIBS\SDL2-2.28.5\INCLUDE\SDL_RENDER.H
+++SDL_rwops.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\USERS\CVAND\ONEDRIVE\DESKTOP\LIBS\SDL2-2.28.5\INCLUDE\SDL_RWOPS.H
+++SDL_scancode.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\USERS\CVAND\ONEDRIVE\DESKTOP\LIBS\SDL2-2.28.5\INCLUDE\SDL_SCANCODE.H
+++SDL_sensor.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\USERS\CVAND\ONEDRIVE\DESKTOP\LIBS\SDL2-2.28.5\INCLUDE\SDL_SENSOR.H
+++SDL_shape.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\USERS\CVAND\ONEDRIVE\DESKTOP\LIBS\SDL2-2.28.5\INCLUDE\SDL_SHAPE.H
+++SDL_stdinc.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\USERS\CVAND\ONEDRIVE\DESKTOP\LIBS\SDL2-2.28.5\INCLUDE\SDL_STDINC.H
+++SDL_surface.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\USERS\CVAND\ONEDRIVE\DESKTOP\LIBS\SDL2-2.28.5\INCLUDE\SDL_SURFACE.H
+++SDL_system.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\USERS\CVAND\ONEDRIVE\DESKTOP\LIBS\SDL2-2.28.5\INCLUDE\SDL_SYSTEM.H
+++SDL_thread.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\USERS\CVAND\ONEDRIVE\DESKTOP\LIBS\SDL2-2.28.5\INCLUDE\SDL_THREAD.H
+++SDL_timer.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\USERS\CVAND\ONEDRIVE\DESKTOP\LIBS\SDL2-2.28.5\INCLUDE\SDL_TIMER.H
+++SDL_touch.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\USERS\CVAND\ONEDRIVE\DESKTOP\LIBS\SDL2-2.28.5\INCLUDE\SDL_TOUCH.H
+++SDL_version.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\USERS\CVAND\ONEDRIVE\DESKTOP\LIBS\SDL2-2.28.5\INCLUDE\SDL_VERSION.H
+++SDL_video.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\USERS\CVAND\ONEDRIVE\DESKTOP\LIBS\SDL2-2.28.5\INCLUDE\SDL_VIDEO.H
+++sdv_driverspecs.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\SHARED\SDV_DRIVERSPECS.H
+++securityappcontainer.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM\SECURITYAPPCONTAINER.H
+++securitybaseapi.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM\SECURITYBASEAPI.H
+++servprov.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM\SERVPROV.H
+++setjmp.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.31.31103\INCLUDE\SETJMP.H
+++setjmpex.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.31.31103\INCLUDE\SETJMPEX.H
+++shellapi.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM\SHELLAPI.H
+++signal.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UCRT\SIGNAL.H
+++smmintrin.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.31.31103\INCLUDE\SMMINTRIN.H
+++sourceannotations.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.31.31103\INCLUDE\CODEANALYSIS\SOURCEANNOTATIONS.H
+++specstrings.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\SHARED\SPECSTRINGS.H
+++specstrings_strict.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\SHARED\SPECSTRINGS_STRICT.H
+++specstrings_undef.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\SHARED\SPECSTRINGS_UNDEF.H
+++stat.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UCRT\SYS\STAT.H
+++stdarg.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.31.31103\INCLUDE\STDARG.H
+++stddef.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UCRT\STDDEF.H
+++stdint.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.31.31103\INCLUDE\STDINT.H
+++stdio.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UCRT\STDIO.H
+++stdlib.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UCRT\STDLIB.H
+++stralign.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\SHARED\STRALIGN.H
+++string.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UCRT\STRING.H
+++stringapiset.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM\STRINGAPISET.H
+++synchapi.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM\SYNCHAPI.H
+++sysinfoapi.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM\SYSINFOAPI.H
+++systemtopologyapi.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM\SYSTEMTOPOLOGYAPI.H
+++threadpoolapiset.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM\THREADPOOLAPISET.H
+++threadpoollegacyapiset.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM\THREADPOOLLEGACYAPISET.H
+++time.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UCRT\TIME.H
+++timeapi.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM\TIMEAPI.H
+++timezoneapi.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM\TIMEZONEAPI.H
+++tmmintrin.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.31.31103\INCLUDE\TMMINTRIN.H
+++tvout.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\SHARED\TVOUT.H
+++types.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UCRT\SYS\TYPES.H
+++Unknwn.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM\UNKNWN.H
+++Unknwnbase.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM\UNKNWNBASE.H
+++urlmon.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM\URLMON.H
+++utilapiset.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM\UTILAPISET.H
+++utime.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UCRT\SYS\UTIME.H
+++vadefs.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.31.31103\INCLUDE\VADEFS.H
+++vcruntime.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.31.31103\INCLUDE\VCRUNTIME.H
+++vcruntime_startup.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.31.31103\INCLUDE\VCRUNTIME_STARTUP.H
+++vcruntime_string.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.31.31103\INCLUDE\VCRUNTIME_STRING.H
+++verrsrc.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM\VERRSRC.H
+++wchar.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UCRT\WCHAR.H
+++winapifamily.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\SHARED\WINAPIFAMILY.H
+++WinBase.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM\WINBASE.H
+++winbase.inl
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM\WINBASE.INL
+++wincon.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM\WINCON.H
+++wincontypes.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM\WINCONTYPES.H
+++wincrypt.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM\WINCRYPT.H
+++windef.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\SHARED\WINDEF.H
+++Windows.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM\WINDOWS.H
+++winefs.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM\WINEFS.H
+++winerror.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\SHARED\WINERROR.H
+++wingdi.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM\WINGDI.H
+++winioctl.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM\WINIOCTL.H
+++winnetwk.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM\WINNETWK.H
+++WinNls.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM\WINNLS.H
+++winnt.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM\WINNT.H
+++winnt.rh
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM\WINNT.RH
+++winpackagefamily.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\SHARED\WINPACKAGEFAMILY.H
+++winperf.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM\WINPERF.H
+++winreg.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM\WINREG.H
+++winresrc.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM\WINRESRC.H
+++winscard.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM\WINSCARD.H
+++winsdkver.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM\WINSDKVER.H
+++winsmcrd.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\SHARED\WINSMCRD.H
+++winsock.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM\WINSOCK.H
+++winspool.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM\WINSPOOL.H
+++winsvc.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM\WINSVC.H
+++WinUser.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM\WINUSER.H
+++winuser.inl
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM\WINUSER.INL
+++winuser.rh
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM\WINUSER.RH
+++winver.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM\WINVER.H
+++wmmintrin.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.31.31103\INCLUDE\WMMINTRIN.H
+++wnnc.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\SHARED\WNNC.H
+++wow64apiset.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM\WOW64APISET.H
+++wtypes.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\SHARED\WTYPES.H
+++WTypesbase.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.19041.0\SHARED\WTYPESBASE.H
+++xmmintrin.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.31.31103\INCLUDE\XMMINTRIN.H
+++zmmintrin.h
+e:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.31.31103\INCLUDE\ZMMINTRIN.H
+++Header Files
+i:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:Header Files
+++Resource Files
+i:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:Resource Files
+++Source Files
+i:{ffc45ea5-bc8d-4e25-8873-0f448d005d99}:Source Files
+++game2d.ilk

@@ -4,12 +4,14 @@
 #include "testentity.h"
 #include "gfc_input.h"
 
+void player_handle_input(Entity* self);
 
-//@brief spawn a player
+void player_update(Entity* self);
+
+void player_free(Entity* self);
+
+// Spawn a player
 // @return NULL on error or a pointer to the player on success
 Entity* player_new();
-
-
-
 
 #endif

@@ -1,70 +1,49 @@
 #ifndef __ENTITY_H__
 #define __ENTITY_H__
+
 #include "gfc_types.h"
 #include "gf2d_sprite.h"
-
 
 /**
 * entity file thing or something
 */
 
-
 typedef struct Entity_S
 {
+    Uint8 _inuse;               // Flag that keeps track of memory usage
+    Sprite* sprite;             // Entity's graphic
+    float frame;                // Current frame of animation for the sprite
+    Vector2D position;          // Position of the entity
+    Vector2D size;              // Size of the entity
+    Vector2D velocity;          // Velocity of the entity
+    void (*think)(struct Entity_S* self);    // Function called to make decisions
+    void (*update)(struct Entity_S* self);   // Function called to execute decisions
+    void (*free)(struct Entity_S* self);     // Function to clean up custom allocated data
+    void (*handle_input)(struct Entity_S* self); // Function for entity movement
+    void* data;                 // Additional data for the entity
 
-	Uint8 _inuse;  //this is the flag that keeps track of memory usage
-	Sprite* sprite; //this is the entity's graphic
-	float frame;   // the current frame of animation for the sprite
-	Vector2D position; //where on the screen things are drawn
-	Vector2D velocity; // how much an entity's changes per update
-	void (*think) (struct Entity_S* self); // func called to make decisions
-	void (*update) (struct Entity_S* self); // func called to execute decisions
-	void (*free) (struct Entity_S* self); // cleans up custom allocated data
-	void (*handle_input) (struct Entity_S* self); // entity movement
-	void* data;							// for ad hoc addition data for entity
+    // Player-specific stats
+    struct
+    {
+        int health;
+        float movement_speed;
+        float gravity_multiplier;
+    } player_stats;
 
-	// Player-specific stats
-	struct
-	{
-		int health;
-		float movement_speed;
-		float gravity_multiplier;
-	} player_stats;
+    // Additional fields for jumping
+    Uint8 jumping;              // Jump flag
+    float jump_force;           // Jump force
+    float jump_height;          // Maximum jump height
+    float gravity;              // Gravity strength
+} Entity;
 
-	// Additional fields for jumping
-	Uint8 jumping;      // Jump flag
-	float jump_force;   // Jump force
-	float jump_height;  // Maximum jump height
-	float gravity;      // Gravity strength
-
-}Entity;
-
-// @brief this initializes the entity management system and queues up cleanup on exit
-// @param max the max number of entities that can exist at once
+// Function prototypes
 void entity_system_initialize(Uint32 max);
-
-// @brief clears all active entities
-// @param ignore do not clean up this entity
 void entity_clear_all(Entity* ignore);
-
-// @brief gets a blank entity for use
-// @return NULL on no more room or error, a blank entity otherwise
 Entity* entity_new();
-
-// @brief cleans up an entity
-// @param self the entity to free
 void entity_free(Entity* self);
-
-// @brief run the think functions for active entities
 void entity_system_think();
-
-// @brief run the update function for all active entities
 void entity_system_update();
-
-// @brief draw all active entities
 void entity_system_draw();
 
-
-
-#endif
-
+#endif // __ENTITY_H__

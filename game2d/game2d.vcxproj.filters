@@ -111,6 +111,12 @@
     <ClCompile Include="..\src\camera.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\src\enemyentity.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\platform.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\include\gf2d_draw.h">
@@ -210,6 +216,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\include\camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\enemyentity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\platform.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

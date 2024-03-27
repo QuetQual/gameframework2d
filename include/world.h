@@ -4,6 +4,8 @@
 #include "gf2d_sprite.h"
 #include "gfc_vector.h"
 #include "gfc_input.h"
+#include "testentity.h"
+#include "player.h"
 
 typedef struct
 {
@@ -13,6 +15,8 @@ typedef struct
     Uint8* tileMap;
     Uint8* tileHeight;
     Uint8* tileWidth;
+    Vector2D playerPosition;
+    Vector2D enemyPosition;
 } World;
 
 World* world_test_new();
@@ -28,5 +32,9 @@ void world_free(World* world);
 /* @brief draw the world
   @return world the world to draw */
 void world_draw(World* world);
+
+/* @brief spawns a platform
+  @return platform spawned */
+void spawn_platform(Entity* player);
 
 #endif
